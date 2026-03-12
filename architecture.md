@@ -45,8 +45,7 @@ Viz --> UI
 2. Optimization Engine Architecture
 
 The optimization engine is responsible for building and solving the scheduling model.
-```
-
+```mermaid
 flowchart TD
 
 Input[User Input Data]
@@ -78,8 +77,7 @@ SolutionExtractor --> Formatter
 3. Data Flow Architecture
 
 This diagram explains how data moves through the system from user input to final timetable output.
-```
-
+```mermaid
 flowchart LR
 
 UserInput[User Inputs Subjects and Schedule]
@@ -109,7 +107,7 @@ GridRenderer --> ExportModule
 
 The system can be extended into a scalable SaaS platform using asynchronous job processing.
 
-```
+```mermaid
 User[Users]
 
 Frontend[Frontend<br>Next.js]
@@ -142,7 +140,7 @@ Backend --> Storage
 
 This diagram shows the internal workflow of the optimization process.
 
-```
+```mermaid
 flowchart TD
 
 Start[User Request]
