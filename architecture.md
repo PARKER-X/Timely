@@ -108,6 +108,7 @@ GridRenderer --> ExportModule
 The system can be extended into a scalable SaaS platform using asynchronous job processing.
 
 ```mermaid
+flowchart LR
 User[Users]
 
 Frontend[Frontend<br>Next.js]
